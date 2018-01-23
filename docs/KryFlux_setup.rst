@@ -102,16 +102,16 @@ Capture correctly encoded disk image:
 
 ::
 
-  dtc -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\
-[MSSnumber_ID]\[MSSnumber_ID]-fJ:\digitalArchives\
-diskImages\[collectionName]_diskImages\
-[MSSnumber_ID]\[MSSnumber_ID].img -i[4 or 9] -m1 -l8
+  	dtc -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\
+	[MSSnumber_ID]\[MSSnumber_ID]-fJ:\digitalArchives\
+	diskImages\[collectionName]_diskImages\
+	[MSSnumber_ID]\[MSSnumber_ID].img -i[4 or 9] -m1 -l8
 
 *For example*::
 
-  dtc -fJ:\digitalArchives\diskImages\Lomax_diskImages\
-785_01\785_01 -i0 -fJ:\digitalArchives\diskImages\
-Lomax_diskImages\785_01\785_01.img -i4 -m1 -l8
+  	dtc -fJ:\digitalArchives\diskImages\Lomax_diskImages\
+	785_01\785_01 -i0 -fJ:\digitalArchives\diskImages\
+	Lomax_diskImages\785_01\785_01.img -i4 -m1 -l8
 
 22. Once imaging is complete, remove the floppy disk from the drive.
 23. Label the disk with its MSSnumber\_ID. Be sure not to obscure any original labels.
