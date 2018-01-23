@@ -30,16 +30,16 @@ Migrate existing raw disk image to E01 file using ewfacquire:
 
 ::
 
-  sudo md5sum ./[MSS#_ID]/[MSS#_ID].img 
+  sudo md5sum ./[MSS\#_ID]/[MSS\#_ID].img 
   
 
 5. In the terminal, type the following command and hit **enter**:
 
 ::
 
-  ewfacquirestream ./[MSS#_ID]/[MSS#_ID].img -C [MSS#_ID] -D [Description of media] 
-  -e [your name] -E [Collection name] -f encase6 -m removeable -M logical -l log_[MSS#_ID] 
-  -t ./[MSS#_ID]/[MSS#_01].e01 > ./[MSS#_ID]
+  ewfacquirestream ./[MSS\#_ID]/[MSS\#_ID].img -C [MSS\#_ID] -D [Description of media] 
+  -e [your name] -E [Collection name] -f encase6 -m removeable -M logical -l log_[MSS\#_ID] 
+  -t ./[MSS\#_ID]/[MSS\#_01].e01 > ./[MSS\#_ID]
   
 6. Review the MD5 checksum generated using the ``ewfaquirestream`` command; ensure it matches the MD5 checksum generated using the ``md5sum`` command.
 
