@@ -103,7 +103,7 @@ Capture correctly encoded disk image:
 ::
 
   	dtc -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\
-	[MSSnumber_ID]\[MSSnumber_ID]-fJ:\digitalArchives\
+	[MSSnumber_ID]\[MSSnumber_ID] -i0 -fJ:\digitalArchives\
 	diskImages\[collectionName]_diskImages\
 	[MSSnumber_ID]\[MSSnumber_ID].img -i[4 or 9] -m1 -l8
 
