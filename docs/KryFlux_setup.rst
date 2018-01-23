@@ -73,11 +73,13 @@ Capture stream files:
 
 ::
 
-  dtc -p -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\[MSS#_ID]\[MSS#_ID] -i0 -i4 -i9 -l8
+  dtc -p -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\
+  [MSSnumber_ID]\[MSSnumber_ID] -i0 -i4 -i9 -l8
 
 *For example*::
 
-  dtc -p -fJ:\digitalArchives\diskImages\Lomax_diskImages\785_01\785_01 -i0 -i4 -i9 -l8
+  dtc -p -fJ:\digitalArchives\diskImages\Lomax_diskImages\
+  785_01\785_01 -i0 -i4 -i9 -l8
 
 **NOTE:** You may need to double check the drive letter associated with the Digital Archives hard drive dock, as it may not always be ``J:``. If necessary, substitute the correct drive letter at the beginning of the file path.
 19. Imaging will begin. Progress will be logged in the terminal window.
@@ -100,17 +102,19 @@ Capture correctly encoded disk image:
 
 ::
 
-  dtc -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\[MSS#_ID]\[MSS#_ID] 
-  -i0 -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\[MSS#_ID]\[MSS#_ID].img 
-  -i[4 or 9] -m1 -l8
+  dtc -fJ:\digitalArchives\diskImages\[collectionName]_diskImages\
+[MSSnumber_ID]\[MSSnumber_ID]-fJ:\digitalArchives\
+diskImages\[collectionName]_diskImages\
+[MSSnumber_ID]\[MSSnumber_ID].img -i[4 or 9] -m1 -l8
 
 *For example*::
 
-  dtc -fJ:\digitalArchives\diskImages\Lomax_diskImages\785_01\785_01 -i0 -
-  fJ:\digitalArchives\diskImages\Lomax_diskImages\785_01\785_01.img -i4 -m1 -l8
+  dtc -fJ:\digitalArchives\diskImages\Lomax_diskImages\
+785_01\785_01 -i0 -fJ:\digitalArchives\diskImages\
+Lomax_diskImages\785_01\785_01.img -i4 -m1 -l8
 
 22. Once imaging is complete, remove the floppy disk from the drive.
-23. Label the disk with its MSS#\_ID. Be sure not to obscure any original labels.
+23. Label the disk with its MSSnumber\_ID. Be sure not to obscure any original labels.
 
 -----------------------------------
 Repeat for remaining floppy disks:
