@@ -1,3 +1,5 @@
+.. _KryoFlux_setup:
+
 ======================================================
 Transferring data from floppy disks using the KryoFlux
 ======================================================

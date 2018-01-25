@@ -1,3 +1,5 @@
+.. _img_migration:
+
 ========================================================
 Migrating KryoFlux image files in preparation for ingest
 ========================================================
