@@ -25,14 +25,14 @@ b. Create each folder one-by-one by right-clicking and selecting **New Folder**.
 c. Name each folder using the MSSnumber_ID.
 
 *Option 2*
-a. Type `cmd` into the Windows Search Box to open a terminal window. 
-b. Type the following command into the terminal window in order to navigate to your folder on the Digital Archives hard drive dock and hit **enter**:
+	a. Type `cmd` into the Windows Search Box to open a terminal window. 
+	b. Type the following command into the terminal window in order to navigate to your folder on the Digital Archives hard drive dock and hit **enter**:
 
 ::
 
 	cd D:\DigitalArchives\diskImages\Mackey_diskImages\[your folder name]
 	
-c. Type the following command to create all 20 folders at once and hit **enter**:
+	c. Type the following command to create all 20 folders at once and hit **enter**:
 
 ::
 
