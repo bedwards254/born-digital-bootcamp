@@ -32,6 +32,7 @@ c. Name each folder using the MSSnumber_ID.
 
 	cd D:\DigitalArchives\diskImages\Mackey_diskImages\[your folder name]
 	
+	
 	c. Type the following command to create all 20 folders at once and hit **enter**:
 
 ::
