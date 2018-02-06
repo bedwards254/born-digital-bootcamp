@@ -25,14 +25,14 @@ Run Fiwalk with the ClamAV plugin:
 
 ::
 
-  	fiwalk -c clamconfig.txt -X /media/bcadmin/New\ 	Volume/digitalArchives/diskImages/[collectionName]_diskImages/
-	[MSSnumber_ID]/fiwalk.xml /media/bcadmin/New\ 	Volume/digitalArchives/diskImages/[collectionName]_diskImages/
+  	fiwalk -c clamconfig.txt -X /media/bcadmin/New\ Volume/digitalArchives/diskImages/[collectionName]_diskImages/
+	[MSSnumber_ID]/fiwalk.xml /media/bcadmin/New\ Volume/digitalArchives/diskImages/[collectionName]_diskImages/
 	[MSSnumber_ID]/[disk image filename with extension]
 
 *For example*::
 
-  	fiwalk -c clamconfig.txt -X /media/bcadmin/New\ 	Volume/digitalArchives/diskImages/Mackey_diskImages/
-	1297_01/fiwalk.xml /media/bcadmin/New\ 	Volume/digitalArchives/diskImages/Mackey_diskImages/
+  	fiwalk -c clamconfig.txt -X /media/bcadmin/New\ Volume/digitalArchives/diskImages/Mackey_diskImages/
+	1297_01/fiwalk.xml /media/bcadmin/New\ Volume/digitalArchives/diskImages/Mackey_diskImages/
 	[1297_01/1297_01.E01
 	
 ------------------
