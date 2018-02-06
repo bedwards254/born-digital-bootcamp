@@ -14,6 +14,7 @@ Things to know:
 * For each piece of digital media, each person will complete the following tasks:
 	* :ref:`Capturing a disk image using either the KryoFlux (for floppy disks) or dd (for optical discs). <KryoFlux_setup>`
 	* :ref:`Migrating the disk image to a format suitable for ingest into the Keep. <img_migration>`
+	* :ref:`Generating a Fiwalk report for each disk image and scanning each disk image for viruses. <fiwalk_and_clamav>`
 	* :ref:`Preparing the disk image and any supplemental files for ingest into the Keep using BagIt. <creatingBags>`
 	* Ingesting each packaged disk image into the Keep and completing Keep object metadata records.
 * Each person will be a assigned a range of numbers that you should use as unique identifiers for your twenty disk images. These will replace the identifiers previously assigned by Laura. Identifiers are assigned as follows:

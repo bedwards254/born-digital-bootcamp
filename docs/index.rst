@@ -10,6 +10,7 @@ Welcome to born_digital_bootcamp's documentation!
    instructions
    KryFlux_setup
    img_migration
+   fiwalk_and_clamav
    creatingBags
 
 
