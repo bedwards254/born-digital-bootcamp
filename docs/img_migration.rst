@@ -23,7 +23,8 @@ Locate existing image files:
  
  ::
  
- 	cd ../../media/bcadmin/New\ Volume/digitalArchives/diskImages/Mackey_diskImages
+ 	cd ../../media/bcadmin/New\ Volume/digitalArchives/diskImages/
+	Mackey_diskImages
  
  - Hit **enter**.
  
