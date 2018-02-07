@@ -77,7 +77,8 @@ Verify the new disk image using ewfverify:
 
 ::
 
-	ewfverify [MSSnumber_ID]/[MSSnumber_ID].E01 >[MSSnumber_ID]/verify[MSSnumber_ID].txt
+	ewfverify [MSSnumber_ID]/[MSSnumber_ID].E01 	
+	>[MSSnumber_ID]/verify[MSSnumber_ID].txt
 	
 *For example*::
 
