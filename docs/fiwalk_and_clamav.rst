@@ -28,7 +28,7 @@ Run Fiwalk with the ClamAV plugin:
   	fiwalk -c clamconfig.txt -X /media/bcadmin/New\ 	
 	Volume/digitalArchives/diskImages/
 	[collectionName]_diskImages/[MSSnumber_ID]/fiwalk.xml 
-	/media/bcadmin/New\	Volume/digitalArchives/diskImages
+	/media/bcadmin/New\ Volume/digitalArchives/diskImages
 	/[collectionName]_diskImages/[MSSnumber_ID]/
 	[disk image filename with extension]
 
@@ -43,7 +43,7 @@ Run Fiwalk with the ClamAV plugin:
 Review fiwalk.xml:
 ------------------
 5. Once you've run the command listed above, you should find a **fiwalk.xml** file in the same folder as your disk image. Open **fiwalk.xml**.
-6. For each file listed in **fiwalk.xml**, review the ``<clamav>` tags. As long as the file is not infected with any viruses, their contents will be ``0``. If you notice that one or more files are contaminated, consult the digital archivist.
+6. For each file listed in **fiwalk.xml**, review the ``<clamav>`` tags. As long as the file is not infected with any viruses, their contents will be ``0``. If you notice that one or more files are contaminated, consult the digital archivist.
 
 ---------------------------------
 Repeat for remaining disk images:
