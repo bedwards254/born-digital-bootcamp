@@ -17,23 +17,23 @@ Create folders:
 
 1. Ensure that the Digital Archives hard drive dock is powered on. 
 
-**NOTE:** Before beginning the process of creating bags, each disk image must be placed inside a folder named using the MSSnumber_ID (e.g., 1297_01). There are two ways to do this:
+**NOTE:** Before beginning the process of creating bags, each forensically packaged disk image (.E01) must be placed with any supplemental files inside a folder named using the MSSnumber_ID (e.g., 1297_01). There are two ways to create these folders:
 
 *Option 1*
-a. Navigate to your disk image files on the Digital Archives hard drive dock. 
-b. Create each folder one-by-one by right-clicking and selecting **New Folder**. 
-c. Name each folder using the MSSnumber_ID.
+	a. Navigate to your disk image files on the Digital Archives hard drive dock. 
+	b. Create each folder one-by-one by right-clicking and selecting **New Folder**. 
+	c. Name each folder using the MSSnumber_ID.
 
 *Option 2*
-	a. Type `cmd` into the Windows Search Box to open a terminal window. 
-	b. Type the following command into the terminal window in order to navigate to your folder on the Digital Archives hard drive dock and hit **enter**:
+	a. Type ``cmd`` into the Windows Search Box to open a terminal window. 
+	b. Type the following command into the terminal window in order to navigate to the **Mackey_diskImages** folder on the Digital Archives hard drive dock and hit **enter**:
 
 ::
 
-	cd D:\DigitalArchives\diskImages\Mackey_diskImages\[your folder name]
+	cd D:/DigitalArchives/diskImages/Mackey_diskImages
 	
 	
-c. Type the following command to create all 20 folders at once and hit **enter**:
+	c. Type the following command to create all 20 folders at once and hit **enter**:
 
 ::
 
@@ -43,22 +43,32 @@ c. Type the following command to create all 20 folders at once and hit **enter**
 
 	mkdir 1297_{150..170}
 	
-2. Copy each E01 disk image file into the correct folder.
+2. Each folder needs to contain the following files:
+	a. The forensically packaged disk image (.E01)
+	b. The ``imgMD5.txt`` file created during migration from a ``.img`` file to a ``.E01`` file
+	c. The ``verify[MSSnumber_ID].txt`` file also created during migration from a ``.img`` file to a ``.E01`` file (e.g., ``verify1297_24.txt``)
+	d. The ``fiwalk.xml`` file
+	
+You can either copy and paste the relevant files into their folder or use the command line to move files (instructions forthcoming).
 
 ------------
 Create a Bag:
 ------------
 
-3. If you don't already have a terminal window open, type `cmd` into the Windows Search Box to open one.
+3. If you don't already have a terminal window open, type ``cmd`` into the Windows Search Box to open one.
 4. Type the following command into the terminal window in order to package your first disk image folder as a Bag and hit **enter**:
 
 ::
 
-	bagit.py --md5 --sha1 --contact-name=[your name] D:\DigitalArchives\diskImages\Mackey_diskImages\[your folder name]\[MSSnumber_ID]
+	bagit.py --md5 --sha1 --contact-name=[your netID] 	
+	D:\DigitalArchives\diskImages\Mackey_diskImages\
+	[MSSnumber_ID]
 	
 *For example*::
 
-	bagit.py --md5 --sha1 --contact-name=dwaugh D:\DigitalArchives\diskImages\Mackey_diskImages\Waugh\1297_173
+	bagit.py --md5 --sha1 --contact-name=[netID] 	
+	D:\DigitalArchives\diskImages\Mackey_diskImages\
+	1297_173
 	
 5. Wait for a confirmation message that Bag creation is complete.
 
@@ -70,11 +80,13 @@ Validate the Bag:
 
 ::
 
-	bagit.py --validate D:\DigitalArchives\diskImages\Mackey_diskImages\[your folder name]\[MSSnumber_ID]
+	bagit.py --validate D:\DigitalArchives\diskImages\
+	Mackey_diskImages\[MSSnumber_ID]
 	
 *For example*::
 
-	bagit.py --validate D:\DigitalArchives\diskImages\Mackey_diskImages\Waugh\1297_173
+	bagit.py --validate D:\DigitalArchives\diskImages\
+	Mackey_diskImages\1297_173
 	
 7. Wait for a confirmation message that the Bag is valid.
 
