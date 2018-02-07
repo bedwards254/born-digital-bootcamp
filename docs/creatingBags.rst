@@ -32,8 +32,7 @@ Create folders:
 
 	cd D:/DigitalArchives/diskImages/Mackey_diskImages
 	
-	
-	c. Type the following command to create all 20 folders at once and hit **enter**:
+c. Type the following command to create all 20 folders at once and hit **enter**:
 
 ::
 
