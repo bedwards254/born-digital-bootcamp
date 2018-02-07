@@ -52,9 +52,8 @@ Migrate the existing raw disk image using ewfacquire:
 
 ::
 
-	ewfacquire ./[MSSnumber_ID]/[MSSnumber_ID].img -C 
-	["MSSnumber_ID"] -D ["Description of media"] -e ["your netID"] 
-	-E ["Collection name"] -f "encase6" -m removable -M logical -N "Migration from 	img" -c "deflate" -o 0 -S "1.4 GiB" -P 512 -g 64 -t ./[MSSnumber_ID]/[MSSnumber_ID]
+	ewfacquire ./[MSSnumber_ID]/[MSSnumber_ID].img -C ["MSSnumber_ID"] -D ["Description of media"] -e ["your netID"] -E ["Collection name"] -f "encase6" -m "removable" -M "logical" -N "Migration from img" -c "deflate" -o 0 -S "1.4 GiB" -P 512 -g 64 -t ./[MSSnumber_ID]/[MSSnumber_ID]
+	
 	
 *For example*::
 
