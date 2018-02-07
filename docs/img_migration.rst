@@ -61,7 +61,10 @@ Migrate the existing raw disk image using ewfacquire:
 	
 *For example*::
 
-  	ewfacquire ewfacquire ./1297_24/1297_24.img -C "1297_24" -D "3.5 inch floppy 	disk" -e "netID" -E "Nathaniel Mackey papers" -f "encase6" -m removable -M logical 	-N "Migration from img" -c "deflate" -o 0 -S "1.4 GiB" -P 512 -g 64 -t 	./1297_24/1297_24
+	ewfacquire ./1297_24/1297_24.img -C "1297_24" -D "3.5 inch floppy disk" 
+	-e 	"netID" -E "Nathaniel Mackey papers" -f "encase6" -m "removable" -M 	"logical" -N "Migration from img" -c "deflate" -o 0 -S "1.4 GiB" -P 512 
+	-g 64 -t ./1297_24/1297_24
+
 
 6. As prompted in the terminal window, hit **enter** five times. Look for acknowledgement that a new forensically packaged disk image has been successfully createdx: you should see an acquiry start and completion time, an MD5 hash (checksum) calculated over the data, and a confirmation message reading ``ewfacquire: SUCCESS``.
 	
