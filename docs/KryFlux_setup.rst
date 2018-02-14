@@ -6,6 +6,7 @@ Transferring data from floppy disks using the KryoFlux
 -----------------
 Before you begin:
 -----------------
+* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. :ref:`You can find instructions on how to do this here. <BC_Windows.rst>`
 * **Make sure the Digital Archives' Lab workstation is not connected to the internet.** Unplug the yellow ethernet cord at the back of the computer.
 * As you unpack the KryoFlux, pay attention to the labels on the data cable and the KryoFlux enclosure. These will help ensure that the floppy disk drive and the KryoFlux are connected correctly.
 * As you are setting up the KryoFlux, avoid placing any drives on the metal shelves over the workstations.

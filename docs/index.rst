@@ -8,6 +8,7 @@ Welcome to born_digital_bootcamp's documentation!
    :caption: Contents:
    
    instructions
+   BC_Windows
    KryFlux_setup
    img_migration
    fiwalk_and_clamav
