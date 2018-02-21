@@ -12,12 +12,9 @@ Move packaged content to the server:
 Before you begin:
 ^^^^^^^^^^^^^^^^^
 
-* This workflow uses tools stored in Windows. If necessary, restart the Digital 
-Archives Lab workstation and boot to the Windows hard drive. :ref:`You can find 
-instructions on how to do this here. <BC_Windows.rst>`
-* Ensure that the Digital Archives Lab workstation **is** connected to the Internet 
-by plugging in the ethernet cable if necessary. Unlike many of our processes, ingest 
-into the Keep does require a network connection.
+* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. :ref:`You can find instructions on how to do this here. <BC_Windows.rst>`
+
+* Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
 
 ^^^^^^^^^^^^^^^^^^^
 Connect to the VPN:
