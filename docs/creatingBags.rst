@@ -8,7 +8,7 @@ Packaging disk images and supplemental files using BagIt
 Before you begin:
 -----------------
 
-* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. :ref:`You can find instructions on how to do this here. <BC_Windows.rst>`
+* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. You can find instructions on how to do this :ref:`here <BC_Windows>`.
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ---------------

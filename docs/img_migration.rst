@@ -8,7 +8,7 @@ Migrating KryoFlux image files in preparation for ingest
 Before you begin:
 -----------------
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. :ref:`You can find instructions on how to do this here. <BC_Windows.rst>`
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this :ref:`here <BC_Windows>`.
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ----------------------------
