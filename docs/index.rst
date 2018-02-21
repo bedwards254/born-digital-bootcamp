@@ -13,6 +13,7 @@ Welcome to born_digital_bootcamp's documentation!
    img_migration
    fiwalk_and_clamav
    creatingBags
+   Keep_ingest
 
 
 
