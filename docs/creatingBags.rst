@@ -23,21 +23,21 @@ Create folders:
 
 **NOTE:** Before beginning the process of creating bags, each forensically packaged disk image (.E01) must be placed with any supplemental files inside a folder named using the MSSnumber_ID (e.g., 1297_01). There are two ways to create these folders:
 
-*Option 1* 
+*Option 1 (easy but tedious)* 
 	a. Create each folder one-by-one by right-clicking and selecting **New Folder**. 
 	b. Name each folder using the MSSnumber_ID.
 
-*Option 2*
+*Option 2 (fast but requires the command line)*
 	a. Launch a terminal window.
 	b. Navigate to the folder created at step 4 by typing the following command:
 
 ::
 
-	cd ../../media/bcadmin/digitalArchives/diskImages/Mackey_diskImages/[your new 
-	folder]
+	cd ../../media/bcadmin/digitalArchives/diskImages/
+	Mackey_diskImages/[your new folder]
 	
 	
-c. Type the following command to create all 20 folders at once and hit **enter**:
+	c. Type the following command to create all 20 folders at once and hit **enter**:
 
 ::
 
