@@ -12,7 +12,7 @@ Move packaged content to the server:
 Before you begin:
 ^^^^^^^^^^^^^^^^^
 
-* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. :ref:`You can find instructions on how to do this here. <BC_Windows.rst>`
+* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. You can find instructions on how to do this :ref:`here <BC_Windows>`.
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
 
@@ -64,15 +64,15 @@ Ingest Bag into the Keep:
 13. Log into the Keep at https://keep.library.emory.edu. 
 14. Click **ingest uploaded content**.
 15. In the **Collection** box, begin typing **Mackey** and select **1297 Nathaniel 	Mackey papers** from the list that pops up.
-14. From the **File to ingest** drop-down menu, select the first of your Bags.
-15. Hit **Submit**.
+16. From the **File to ingest** drop-down menu, select the first of your Bags.
+17. Hit **Submit**.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Complete Keep object metadata record:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-16. Click on the newly-ingested object's PID in order to view its metadata record.
-17. Complete **Descriptive Metadata**:
+18. Click on the newly-ingested object's PID in order to view its metadata record.
+19. Complete **Descriptive Metadata**:
 	
 	The following fields should auto-populate:
 		
@@ -87,29 +87,30 @@ Complete Keep object metadata record:
 	* Dates can be added to the **Covering Dates** field. Neither a date range 		  	nor full dates are required, so add as much or as little information as you 		  	have.
 	* Other label information can be added to the **Abstract** field.
 		
-18. Complete **Technical Metadata**:
+20. Complete **Technical Metadata**:
 	
-	* The following fields should be completed:
+	The following fields should be completed:
 		
-	**Imaging Date:** Enter the date on which you imaged the disk.
-	**Creating Application:** From the drop-down menu, select the application 		  	used to create the disk image. For all of our Mackey floppy disks, this 		  	will be **ewfacquire 20140608**.
-	**Original Environment Software:** Type *none* in all three **Original 		  	Environment Software** fields.
-	**Hardware - Name:** Type *3.5" floppy disk*.
-	**Hardware - Type:** Select **removable media** from drop-down menu.
-	**Other information:** Type *Data originally transferred using KryoFlux. 		  	Raw disk image file migrated to Expert Witness Format using ewfacquire*.
+	* **Imaging Date:** Enter the date on which you imaged the disk.
+	* **Creating Application:** From the drop-down menu, select the application 	  
+		used to create the disk image. For all of our Mackey floppy disks, this will 		be **ewfacquire 20140608**.
+	* **Original Environment Software:** Type *none* in all three **Original 		  	* Environment Software** fields.
+	* **Hardware - Name:** Type *3.5" floppy disk*.
+	* **Hardware - Type:** Select **removable media** from drop-down menu.
+	* **Other information:** Type *Data originally transferred using KryoFlux. 		  	    Raw disk image file migrated to Expert Witness Format using ewfacquire*.
 		   
-19. Complete **Rights Metadata**:
+21. Complete **Rights Metadata**:
 	
-	* The following field should be completed:
+	The following field should be completed:
 		
-	**Access Status:** Select **13: Metadata only** from the drop-down menu.
+	* **Access Status:** Select **13: Metadata only** from the drop-down menu.
 		
-20. Hit **Save**.
+22. Hit **Save**.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Repeat for remaining Bags:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-21. For each remaining Bag, repeat from step 14.
+23. For each remaining Bag, repeat from step 14.
 		
 
