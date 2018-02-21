@@ -37,7 +37,7 @@ Create folders:
 	Mackey_diskImages/[your new folder]
 	
 	
-	c. Type the following command to create all 20 folders at once and hit **enter**:
+c. Type the following command to create all 20 folders at once and hit **enter**:
 
 ::
 
