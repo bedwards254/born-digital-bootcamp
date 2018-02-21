@@ -37,7 +37,7 @@ Run Fiwalk with the ClamAV plugin:
   	fiwalk -c clamconfig.txt -X /media/bcadmin/New\ 	
 	Volume/digitalArchives/diskImages/Mackey_diskImages/1297_01/
 	fiwalk.xml /media/bcadmin/New\ Volume/digitalArchives/
-	diskImages/Mackey_diskImages/[1297_01/1297_01.E01
+	diskImages/Mackey_diskImages/1297_01/1297_01.E01
 	
 ------------------
 Review fiwalk.xml:
