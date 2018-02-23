@@ -33,7 +33,7 @@ Create folders:
 
 ::
 
-	cd ../../media/bcadmin/digitalArchives/diskImages/
+	cd ../../media/bcadmin/New\ Volume/digitalArchives/diskImages/
 	Mackey_diskImages/[your new folder]
 	
 	
@@ -69,7 +69,7 @@ Create a Bag:
 	
 *For example*::
 
-	bagit.py --md5 --sha1 --contact-name=[netID] 	
+	bagit.py --md5 --sha1 --contact-name=netID 	
 	./1297_173
 	
 9. Wait for terminal prompt ($) to reappear.
