@@ -23,8 +23,8 @@ Connect to the VPN:
 1. Launch the BIG-IP Edge Client from the Windows by double-clicking the icon pinned  
    to the taskbar at the bottom of the screen.
 2. Click **Connect**.
-3. Log-in using your Emory NetID and password. Double check that the **Save         
-   Password** option is *not* checked.
+3. Log-in using the stored Emory NetID and password. If no stored log-in details are 
+   available, you may contact either John, Carrie, Elizabeth, or Dorry.  
 4. Wait until the connection status has changed to **Connected**. Once connected, the    BIG-IP Edge Client window will close automatically.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
