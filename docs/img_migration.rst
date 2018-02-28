@@ -36,7 +36,7 @@ Calculate the MD5 checksum for the existing image file:
 
 ::
 
-  	md5sum [MSSnumber_ID]/[MSSnumber_ID].img >.[MSSnumber_ID]/imgMD5.txt
+  	md5sum [MSSnumber_ID]/[MSSnumber_ID].img >[MSSnumber_ID]/imgMD5.txt
 	
 *For example*::
 
